@@ -1,6 +1,6 @@
 Comments Module
 
-Steps to run this:
+### Steps to run this:
 
 1. npm install
 2. npm start
