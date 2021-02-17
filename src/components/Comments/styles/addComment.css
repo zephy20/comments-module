@@ -1,0 +1,56 @@
+.inputBoxContainer {
+  padding: 10px 0;
+}
+
+.inputBox {
+  padding: 10px 0 10px 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  resize: none;
+  height: 100px;
+  font-family: sans-serif;
+  border: 1px solid #d3c8c8;
+}
+
+.inputBox:focus {
+  outline: none;
+}
+
+.buttonContainer {
+  width: 100%;
+  text-align: left;
+}
+
+.addCommentButton {
+  cursor: pointer;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 5px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.addCommentButton:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.flex {
+  display: flex;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.leftSpacingMed {
+  margin-left: 10px;
+}

@@ -1,0 +1,17 @@
+.commentWrapper {
+  width: 800px;
+  height: 600px;
+  padding: 20px;
+  box-shadow: 0px 0px 16px -7px rgb(0 0 0 / 75%);
+  overflow: auto;
+}
+
+.titleText {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.divider {
+  border: 0.5px solid #e7e7e7;
+}
