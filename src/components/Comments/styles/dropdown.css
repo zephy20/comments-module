@@ -34,7 +34,6 @@
   font-size: 15px;
   border: 1px solid rgba(0, 0, 0, 0.15);
   outline: none;
-  padding: 14px 8px;
   background-color: #fff;
   font-family: inherit;
   margin: 0;
@@ -76,4 +75,10 @@
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.buttonContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 8px;
 }

@@ -13,7 +13,11 @@ export default function Dropdown({
   };
 
   window.onclick = function (event) {
-    if (!event.target.matches(".dropBtn")) {
+    if (
+      !event.target.matches(".buttonContent") &&
+      !event.target.matches(".dropBtn") &&
+      !event.target.matches(".btnText")
+    ) {
       const dropdownWrapper = document.getElementsByClassName(
         "dropdownContent"
       )[0];
@@ -25,8 +29,13 @@ export default function Dropdown({
 
   return (
     <div className="dropdownContainer">
-      <div className="dropdownWrapper" onClick={toggleDropdown}>
-        <button className="dropBtn">{activeUser.userName}</button>
+      <div className="dropdownWrapper">
+        <button className="dropBtn" onClick={toggleDropdown}>
+          <div className="buttonContent">
+            <span className="btnText">{activeUser.userName}</span>{" "}
+            <span className="btnText">↓</span>
+          </div>
+        </button>
         <div className="dropdownContent" id="dropdownContentWrapper">
           {users.map(item => (
             <div

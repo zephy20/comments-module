@@ -24,12 +24,12 @@ export default function CommentsWrapper({
         users={users}
         handleChangeActiveUser={handleChangeActiveUser}
       />
+      <AddComment addComment={addComment} />
       <Comments
         comments={comments}
         addComment={addComment}
         deleteComment={deleteComment}
       />
-      <AddComment addComment={addComment} />
     </div>
   );
 }

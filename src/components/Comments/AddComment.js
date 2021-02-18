@@ -31,7 +31,8 @@ export default function AddComment({ addComment, parentId }) {
         <div
           style={{
             color: "red",
-            marginBottom: "5px"
+            marginBottom: "5px",
+            fontSize: "15px"
           }}
         >
           {error}

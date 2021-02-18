@@ -1,5 +1,7 @@
 .inputBoxContainer {
   padding: 10px 0;
+  text-align: center;
+  font-weight: normal;
 }
 
 .inputBox {
