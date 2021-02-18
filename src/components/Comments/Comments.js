@@ -54,6 +54,7 @@ const Comment = ({
         <div className="infoWrapper">
           <div className="topSection bottomSpacingSmall">
             <span
+              className="boldFont"
               style={{
                 fontSize: "14px"
               }}

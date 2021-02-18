@@ -48,8 +48,8 @@
 }
 
 .midSection {
-  font-weight: bold;
   font-size: 14px;
+  word-break: break-word;
 }
 
 .bottomSection {
